@@ -1,21 +1,33 @@
-# nestjs-mongo
+# NestJS Mongo : Main Steps
 
- #Install NestJs
+## Install NestJs
+
  npm i -g @nestjs/cli
- #Verify current version
+ 
+## Verify current version
+
  nest  --version
  
- #Create new Project
+## Create new Project
+
  nest new intro-nest
- #Enter directory
+ 
+## Go directory
+
  cd intro-nest
- #Create Controller
+ 
+## Create Controller
+
  nest g controller books
- #Create Service
+ 
+## Create Service
+
  nest g service books
  
- #Run Project as dev
+## Run Project as dev
+
  npm run start:dev
  
- #Install Mongoose
+## Install Mongoose
+
  npm install --save @nestjs/mongoose mongoose
